@@ -1,1 +1,0 @@
-alert("Boilerplate script file test");
