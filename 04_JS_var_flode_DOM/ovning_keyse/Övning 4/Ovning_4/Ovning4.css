@@ -1,0 +1,16 @@
+.wrapper
+{
+    width: auto;
+}
+.h2 
+{
+    background-color: red;
+    text-align: center;
+}
+.table, th, td
+{
+    width: 80%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}

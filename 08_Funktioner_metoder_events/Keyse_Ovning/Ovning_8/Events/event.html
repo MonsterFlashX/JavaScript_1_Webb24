@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="event.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event</h1>
+    <table id="table">
+        <thead>
+            <tr>
+                <td>Linje nummer</td>
+                <td>Kolumn 1</td>
+                <td>Kolumn 2</td>
+                <td>Kolumn 3</td>
+                <td>Handlingar</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="row-0">
+                <td><input type="text" value="0" readonly></td>
+                <td><input type="text" id="col-0-1"></td>
+                <td><input type="text" id="col-0-2"></td>
+                <td><input type="text" id="col-0-3"></td>
+                <td><button type="submit" onclick="raderaRad()">Ta bort rad</button></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <input type="text" id="new-line-number" placeholder="Ny linjenummer">
+    <input type="text" id="new-col-1" placeholder="Kolumn 1">
+    <input type="text" id="new-col-2" placeholder="Kolumn 2">
+    <input type="text" id="new-col-3" placeholder="Kolumn 3">
+    <button type="submit" onclick="läggRad()">Lägg Rad</button>
+    <button type="submit" onclick="uppdateraLinjeNummer()">Uppdatera linjenummer</button>
+    <button type="submit" onclick="raderaFörradRad()">Ta Bort Förra Rad</button>
+    <script src="exempel.js"></script>
+</body>
+</html>
